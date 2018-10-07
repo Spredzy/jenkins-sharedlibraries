@@ -5,7 +5,7 @@ def call(Map pipelineParams) {
         stages {
             stage('checkout git') {
                 steps {
-                    git branch: '*/master', url: 'https://github.com/Spredzy/jenkins-repob.git'
+                    git branch: 'master', url: 'https://github.com/Spredzy/jenkins-repob.git'
                 }
             }
 
